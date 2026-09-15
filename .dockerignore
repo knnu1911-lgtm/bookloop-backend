@@ -1,0 +1,32 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Maven build output and local cache
+target/
+*.class
+
+# IDE and editor settings
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.nb-gradle/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Documentation and local helper scripts
+HELP.md
+*.ps1
+*.cmd
+*.bat
+
+# Docker configuration
+Dockerfile*
+docker-compose*
+.dockerignore
